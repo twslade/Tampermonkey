@@ -50,7 +50,7 @@
                     city: faker.address.city(),
                     region: 54,
                     postcode: faker.address.zipCode(),
-                    telephone: faker.phone.phoneNumber(),
+                    telephone: faker.phone.phoneNumberFormat(),
                     cc_owner: firstname + ' ' + lastname,
                     cc_type: 'VI',
                     cc_number: '4111 1111 1111 1111',
